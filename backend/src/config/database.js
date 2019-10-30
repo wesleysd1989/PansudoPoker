@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
-module.exports = mongoose.connect('mongodb://root:root123@ds117615.mlab.com:17615/teste')
+module.exports = mongoose.connect('mongodb://root:123root@ds117615.mlab.com:17615/teste')
 
 mongoose.Error.messages.general.required = "O atributo '{PATH}' é obrigatório."
 mongoose.Error.messages.Number.min = 
